@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Juego de cartas solitario</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<svg width="800" height="800" id="entorno">
+		<g id="fondo"> 
+			<image xlink:href="imagen/tablero.png" width="650" height="600" x="100" y="100"> </g>
+			<g> <image xlink:href="imagen/Naipes/as_corazon_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/as_corazon_negro.jpg" class="movil"></g>	
+			<g> <image xlink:href="imagen/Naipes/as_diamante_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/as_trebol_negro.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/2_corazon_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/2_corazon_negro.jpg" class="movil"></g>	
+			<g> <image xlink:href="imagen/Naipes/2_diamante_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/2_trebol_negro.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/3_corazon_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/3_corazon_negro.jpg" class="movil"></g>	
+			<g> <image xlink:href="imagen/Naipes/3_diamante_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/3_trebol_negro.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/4_corazon_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/4_corazon_negro.jpg" class="movil"></g>	
+			<g> <image xlink:href="imagen/Naipes/4_diamante_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/4_trebol_negro.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/5_corazon_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/5_corazon_negro.jpg" class="movil"></g>	
+			<g> <image xlink:href="imagen/Naipes/5_diamante_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/5_trebol_negro.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/6_corazon_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/6_corazon_negro.jpg" class="movil"></g>	
+			<g> <image xlink:href="imagen/Naipes/6_diamante_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/6_trebol_negro.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/7_corazon_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/7_corazon_negro.jpg" class="movil"></g>	
+			<g> <image xlink:href="imagen/Naipes/7_diamante_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/7_trebol_negro.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/8_corazon_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/8_corazon_negro.jpg" class="movil"></g>	
+			<g> <image xlink:href="imagen/Naipes/8_diamante_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/8_trebol_negro.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/9_corazon_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/9_corazon_negro.jpg" class="movil"></g>	
+			<g> <image xlink:href="imagen/Naipes/9_diamante_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/9_trebol_negro.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/10_corazon_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/10_corazon_negro.jpg" class="movil"></g>	
+			<g> <image xlink:href="imagen/Naipes/10_diamante_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/10_trebol_negro.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/j_corazon_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/j_corazon_negro.jpg" class="movil"></g>	
+			<g> <image xlink:href="imagen/Naipes/j_diamante_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/j_trebol_negro.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/q_corazon_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/q_corazon_negro.jpg" class="movil"></g>	
+			<g> <image xlink:href="imagen/Naipes/q_diamante_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/q_trebol_negro.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/k_corazon_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/k_corazon_negro.jpg" class="movil"></g>	
+			<g> <image xlink:href="imagen/Naipes/k_diamante_rojo.jpg" class="movil"></g>
+			<g> <image xlink:href="imagen/Naipes/k_trebol_negro.jpg" class="movil"></g>
+			<div class="movil">Holis</div>
+		</svg>	
+	<script type="text/javascript">
+		window.onload=function()
+		{
+			var cartas=document.getElementsByClassName("movil");
+			var tam_ancho= [67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67];
+			var tam_alto= [92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92,92];
+			for(var x=0; x<cartas.length; x++)
+			{
+				cartas[x].setAttribute("width",tam_ancho[x]);
+				cartas[x].setAttribute("height",tam_alto[x]);
+				cartas[x].setAttribute("x",Math.floor((Math.random() * 10)+1));
+				cartas[x].setAttribute("y",Math.floor((Math.random() * 409)+1));
+				cartas[x].setAttribute("mousedown","seleccionarElemento(evt)");
+			}
+			var elementSelect = 0;
+			var currentX = 0;
+			var currentY = 0;
+			var currentPosx = 0;
+			var currentPosy = 0;
+
+			function seleccionarElemento(evt)
+			{
+				/*Se guarda la posición del puntero*/
+				elementSelect = evt.target;
+				currentX = evt.clientX;
+				currentY = evt.clientY;
+				currentPosx= parseFloat(elementSelect.getAttribute("x"));
+				currentPosy= parseFloat(elementSelect.getAttribute("y"));
+				elementSelect.setAttribute("mousemove","moverElemento(evt)");
+			}
+			function moverElemento(evt)
+			{
+				var dx = evt.clientX - currentX;
+				var dy = evt.clientY - currentY;
+				currentPosx = currentPosx + dx;
+				currentPosy = currentPosy + dy;
+				elementSelect.setAttribute("x",currentPosx);
+				elementSelect.setAttribute("y",currentPosy);
+				currentX = evt.clientX;
+				currentY = evt.clientY;
+				elementSelect.setAttribute("mouseout","deseleccionarElemento(evt)");
+				elementSelect.setAttribute("mouseup","deseleccionarElemento(evt)");
+					
+			}
+			function deseleccionarElemento(evt)
+			{
+				if(elementSelect != 0)
+				{
+					elementSelect.removeAttribute("mousemove");
+					elementSelect.removeAttribute("mouseout");
+					elementSelect.removeAttribute("mouseup");
+					elementSelect = 0;
+				}
+			}
+		}
+    </script>
+	</body>
+	
+</html>
